@@ -4,6 +4,7 @@ import NavBarComponent from "./components/NavBarComponent";
 import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
 import PartnerSlider from "./components/PartnerSlider";
+import BranchLocations from "./components/BranchLocations";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </div>
         <AboutSection />
         <PartnerSlider />
+        <BranchLocations />
       </BrowserRouter>{" "}
     </>
   );

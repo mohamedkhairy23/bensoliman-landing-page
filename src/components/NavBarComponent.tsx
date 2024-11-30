@@ -2,6 +2,7 @@ import { Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { SetStateAction, useState } from "react";
 import Logo from "../assets/ben soliman logo.png";
+
 const NavBarComponent = () => {
   const [activeLink, setActiveLink] = useState("Home");
 

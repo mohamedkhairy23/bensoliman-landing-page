@@ -1,0 +1,13 @@
+.slick-slide {
+  height: auto !important;
+}
+
+.slick-track {
+  padding: 1rem 0;
+  display: flex !important;
+  align-items: stretch;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
