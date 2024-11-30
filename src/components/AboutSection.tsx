@@ -46,8 +46,10 @@ const AboutSection: FC = () => {
           {/* Responsive app store buttons */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a
-              href="#"
+              href="https://play.google.com/store/apps/details?id=com.Elhodafoods.Egypt&pli=1"
               className="hover:opacity-80 transition-opacity w-40 sm:w-auto"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={googlePlay}
@@ -56,8 +58,10 @@ const AboutSection: FC = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://apps.apple.com/eg/app/ben-soliman-%D8%A8-%D9%86-%D8%B3-%D9%84%D9%8A%D9%85%D8%A7%D9%86/id1609436646"
               className="hover:opacity-80 transition-opacity w-40 sm:w-auto"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={appStore}
