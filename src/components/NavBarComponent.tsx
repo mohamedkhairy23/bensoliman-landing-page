@@ -22,10 +22,8 @@ const NavBarComponent = () => {
         <Navbar.Toggle
           className="hover:bg-[#ebfbee] focus:ring-[#ebfbee] p-2 rounded-lg"
           theme={{
-            root: {
-              base: "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-[#ebfbee] focus:outline-none focus:ring-2 focus:ring-[#ebfbee] dark:text-gray-400 dark:hover:bg-[#ebfbee] dark:focus:ring-[#ebfbee] md:hidden",
-              icon: "h-6 w-6 shrink-0",
-            },
+            base: "inline-flex w-full items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-[#ebfbee] focus:outline-none focus:ring-2 focus:ring-[#ebfbee] dark:text-gray-400 dark:hover:bg-[#ebfbee] dark:focus:ring-[#ebfbee] md:hidden",
+            icon: "h-6 w-6 shrink-0",
           }}
         />
       </div>
