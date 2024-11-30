@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import NavBarComponent from "./components/NavBarComponent";
 import Hero from "./components/Hero";
+import AboutSection from "./components/AboutSection";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Hero />
           </div>
         </div>
-        <h1>test</h1>
+        <AboutSection />
       </BrowserRouter>{" "}
     </>
   );
