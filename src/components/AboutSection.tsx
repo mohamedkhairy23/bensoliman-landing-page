@@ -5,7 +5,7 @@ import appStore from "../assets/app-store.png";
 const AboutSection: FC = () => {
   return (
     <section
-      id="من-نحن"
+      id="من نحن"
       className="bg-gradient-to-r from-green-500 to-green-600 text-white py-8 sm:py-12 md:py-16"
     >
       <div className="container mx-auto px-4">

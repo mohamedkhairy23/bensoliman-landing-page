@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import NavBarComponent from "./components/NavBarComponent";
 import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
@@ -10,7 +10,7 @@ import ContactForm from "./components/ContactForm";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/">
+      <Router basename="/">
         <div className="max-h-screen h-screen overflow-hidden">
           <NavBarComponent />
           <div className="mt-16">
@@ -23,7 +23,7 @@ function App() {
         <PartnerSlider />
         <BranchLocations />
         <ContactForm />
-      </BrowserRouter>{" "}
+      </Router>{" "}
     </>
   );
 }

@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <div className="relative h-[calc(100vh-0px)] bg-gradient-to-r from-green-600 to-green-500 flex items-center justify-center">
+    <div
+      id="الرئيسية"
+      className="relative h-[calc(100vh-0px)] bg-gradient-to-r from-green-600 to-green-500 flex items-center justify-center"
+    >
       {/* Overlay with semi-transparent green */}
       {/* <div className="absolute inset-0 bg-green-500/80"></div> */}
 

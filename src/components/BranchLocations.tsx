@@ -50,7 +50,7 @@ const BranchLocations = () => {
   };
 
   return (
-    <div className="w-full py-16 bg-green-50">
+    <div id="فروعنا" className="w-full py-16 bg-green-50">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Header */}
         <div className="text-center mb-12 space-y-3">

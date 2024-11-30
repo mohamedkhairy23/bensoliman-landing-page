@@ -49,7 +49,7 @@ const PartnerSlider = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div id="شركائنا" className="w-full">
       <div className="bg-gradient-to-r from-green-500 to-green-600 py-16 animate-gradient">
         <div className="container mx-auto px-4">
           <div className="flex justify-center items-center flex-col text-right mb-12">

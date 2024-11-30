@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full bg-green-500/10 p-8">
+    <div id="تواصل معنا" className="w-full bg-green-500/10 p-8">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-right mb-8 text-green-600">
           !تواصل معنا

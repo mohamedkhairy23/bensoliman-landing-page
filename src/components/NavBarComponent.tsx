@@ -16,7 +16,7 @@ const NavBarComponent = () => {
       rounded
       className="bg-[#ebfbee] w-full fixed top-0 left-0 right-0 z-50 rounded-none h-16"
     >
-      <Navbar.Brand as={Link} href="https://flowbite-react.com">
+      <Navbar.Brand as={Link} href="">
         <img src={Logo} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
