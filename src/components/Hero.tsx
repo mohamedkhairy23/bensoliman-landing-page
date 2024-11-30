@@ -1,18 +1,18 @@
 const Hero = () => {
   return (
-    <div className="relative h-[calc(100vh-0px)] bg-green-500 flex items-center justify-center">
+    <div className="relative h-[calc(100vh-0px)] bg-gradient-to-r from-green-600 to-green-500 flex items-center justify-center">
       {/* Overlay with semi-transparent green */}
-      <div className="absolute inset-0 bg-green-500/80"></div>
+      {/* <div className="absolute inset-0 bg-green-500/80"></div> */}
 
       {/* Background Image */}
-      <div
+      {/* <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: 'url("/your-background-image.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-      ></div>
+      ></div> */}
 
       {/* Social Media Icons - Fixed on right side */}
       <div className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">

@@ -46,29 +46,27 @@ const PartnerSlider = () => {
       name: "Asl Alhaloub",
       logo: aslElhloul,
     },
-    // Add more partners as needed
   ];
 
   return (
     <div className="w-full">
-      <div className="bg-green-50 py-16">
+      <div className="bg-gradient-to-r from-green-500 to-green-600 py-16 animate-gradient">
         <div className="container mx-auto px-4">
           <div className="flex justify-center items-center flex-col text-right mb-12">
-            <h2 className="text-3xl font-bold text-gray-800">شركائنا</h2>
-            <p className="text-xl text-gray-600 mt-2">من شركاء النجاح؟</p>
+            <h2 className="text-3xl font-bold text-white">شركائنا</h2>
+            <p className="text-xl text-gray-200 mt-2">من شركاء النجاح؟</p>
           </div>
 
           <div className="max-w-5xl mx-auto">
             {" "}
-            {/* Added this wrapper */}
             <Slider {...settings}>
               {partners.map((partner) => (
                 <div key={partner.id} className="px-4">
-                  <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-500">
                     <img
                       src={partner.logo}
                       alt={partner.name}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-auto object-contain transition-transform duration-500 transform hover:scale-105"
                     />
                   </div>
                 </div>
