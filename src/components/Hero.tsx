@@ -16,14 +16,15 @@ const Hero = () => {
 
       {/* Social Media Icons - Fixed on right side */}
       <div className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">
+        {/* Facebook Link */}
         <a
           href="https://www.facebook.com/Bensolimaneg"
-          className="text-white hover:text-gray-200 transition-colors"
+          className="text-[#4B8B8C] hover:text-[#357A6B] transition-colors bg-white rounded-full p-1"
           target="_blank"
           rel="noopener noreferrer"
         >
           <svg
-            className="w-6 h-6"
+            className="w-5 h-5"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true"
@@ -31,14 +32,16 @@ const Hero = () => {
             <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
           </svg>
         </a>
+
+        {/* LinkedIn Link */}
         <a
           href="https://www.linkedin.com/company/elhodafoods/"
-          className="text-white hover:text-gray-200 transition-colors"
+          className="text-[#2F7D5F] hover:text-[#1D5C46] transition-colors bg-white rounded-full p-1"
           target="_blank"
           rel="noopener noreferrer"
         >
           <svg
-            className="w-6 h-6"
+            className="w-5 h-5"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true"

@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
 import PartnerSlider from "./components/PartnerSlider";
 import BranchLocations from "./components/BranchLocations";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <AboutSection />
         <PartnerSlider />
         <BranchLocations />
+        <ContactForm />
       </BrowserRouter>{" "}
     </>
   );
