@@ -35,3 +35,12 @@ body {
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite;
 }
+
+.slick-dots li button:before {
+  color: gray; /* Default dot color */
+  font-size: 12px; /* Adjust size if needed */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white; /* Active dot color */
+}

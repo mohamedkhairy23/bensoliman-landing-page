@@ -58,11 +58,10 @@ const PartnerSlider = () => {
           </div>
 
           <div className="max-w-5xl mx-auto">
-            {" "}
             <Slider {...settings}>
               {partners.map((partner) => (
                 <div key={partner.id} className="px-4">
-                  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-500">
+                  <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <img
                       src={partner.logo}
                       alt={partner.name}
