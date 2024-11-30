@@ -4,7 +4,6 @@ import NavBarComponent from "./components/NavBarComponent";
 import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
 import PartnerSlider from "./components/PartnerSlider";
-import BranchesSlider from "./components/BranchesSlider";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         </div>
         <AboutSection />
         <PartnerSlider />
-        <BranchesSlider />
       </BrowserRouter>{" "}
     </>
   );
